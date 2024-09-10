@@ -15,7 +15,7 @@ def newMessage(request):
     email=data['email']
     subject=data['subject']
     inquiryType=data['inquiryType']
-    Message=data['Message']
+    Message=data['message']
     # Create a new message
     try:
         newMessage = Messages(name=name,email=email,subject=subject,inquiryType=inquiryType,Message=Message)
